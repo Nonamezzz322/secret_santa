@@ -1,0 +1,94 @@
+{
+    "common": {
+      "main_title": "Secret Santa",
+      "create_box": "Create box",
+      "to_main": "Home Page",
+      "my_boxes": "My boxes",
+      "questions": "Questions and Answers", 
+      "my_account": "My account",
+      "logout": "Log out",
+      "login": "Log in",
+      "register": "Sign In",
+      "chose_language": "Select language",
+      "name": "Name",
+      "password": "Password",
+      "settings": "Settings",
+      "currency": "Currency",
+      "preferences": "Preferences",
+      "save": "Save"
+  
+    },
+    "home_page": {
+      "tagline_1": "Arrange a secret exchange of gifts",
+      "tagline_2": "between friends or colleagues!"
+    },
+    "box_item": {
+      "add_user": "Add user",
+      "invite": "Invite users",
+      "delete_user": "Delete user",
+      "delete_box": "Delete box",
+      "participant": "Participant",
+      "participants": "Participants",
+      "card": "My card",
+      "ward": "Who am I giving?",
+      "gift": "My gift",
+      "recepient": "Recepient",
+      "set_draw": "Draw lots",
+      "draw": "Draw",
+      "creator": "Organizer",
+      "join_to": "Join to"
+    },
+    "box_list": {
+      "users_quantity": "Users quantity: ",
+      "roles": "Roles: ",
+      "goto": "Go to"
+    },
+    "box_create": {
+      "box_id": "Box ID",
+      "limit": "Limit", 
+      "limitation": "Limitation",
+      "creator": "Creator"
+  
+    },
+    "auth": {
+      "get_register": "Register now",
+      "get_enter": "Sign in",
+      "tagline": " to keep abreast of current exchanges",
+      "forgot_password": "Forgot password?",
+      "not_account": "Don't have an account? Register now!",
+      "have_account": "Already have an account? To Log in!"
+    },
+    "faq": {
+      "faq_title": "FAQ",
+      "QaA": [
+        {
+          "question": "When interacting with the site, errors occur and it works slowly, what is it?",
+          "answer": "If your site is slow and keeps showing errors, try to come back later and repeat your steps. Every day a lot of people come to the site and from time to time there may be interruptions in work due to high load. We are working on fixing the situation, but we cannot guarantee 100% stability at the moment. Please understand with understanding - the site is free. If the error persists for several hours, please write to support@secret-santa.ru with a detailed description of the problem, probably, it is not related to the load."
+        },
+        {
+          "question": "How many people can participate in the draw through the box? Is there a limitation?",
+          "answer": "There is no limitation on the number of participants at the moment. However, with a very large number of participants (somewhere over 500), the box page may slow down. Also, letters will be sent out longer."
+        },
+        {
+          "question": "How many people can participate in the quick draw? Is there a limitation?",
+          "answer": "The restriction on participation in the quick draw is 100 people"
+        },
+        {
+          "question": "What is the minimum number of people needed to draw?",
+          "answer": "In order for the draw to be at least a little secret, at least three participants are required."
+        },
+        {
+          "question": "I am the organizer, I invited the participants through the table, but the invitations did not reach, what should I do?",
+          "answer": "On the invitation page there is an option to 'Send invitations together with the results of the draw', you probably forgot to turn it off before sending the invitations. You can: 1 - draw lots and invitations will be sent along with a link to the ward; 2 - remove all participants and invite them again by turning off the 'Send invitations together with the results of the draw' option."
+        },
+        {
+          "question": "After the drawing of lots, it turned out that the email address of the participant was incorrect, what should I do?",
+          "answer": "At the moment, there is no way on the site to change the participant's address after the drawing of lots, such an opportunity will appear in the new version, but for now, you can write to me at support@secret-santa.ru with a request to correct the address. Send the following information: incorrect email followed by the correct one (please specify which one is correct in any case)."
+        },
+        {
+          "question": "I am a box organizer but I cannot see the draw button, what should I do?",
+          "answer": "Such a situation may arise for those who created a box under one account, but registered as a participant under another and forgot about it. You need to go to the box under the account under which you created the box and then you will see the pages for the organizer. To see who is the organizer of the box, go to the 'My boxes' page and see who is listed as the organizer opposite the box name on the right (if this is you, then you will not see the inscription, but under the box name there will be the inscription 'organizer')"
+        }
+      ]
+    }
+  }
