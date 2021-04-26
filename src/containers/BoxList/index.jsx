@@ -8,7 +8,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CardActions from '@material-ui/core/CardActions';
-// import CircularProgress from '@material-ui/core/CircularProgress';
 import { NavLink } from 'react-router-dom';
 import { useOne } from '../../hooks/useOne';
 import { getBoxes } from '../../redux/asyncActions/box';
@@ -18,7 +17,6 @@ const BoxList = () => {
   const classes = useStyles();
   const boxes = useSelector(state => state.boxes.boxesList);
   const { t } = useTranslation();
-  // const isLoadingData = useSelector(state => state.loading.isLoadingData);
   const dispatch = useDispatch();
 
   useOne(() => dispatch(getBoxes()));

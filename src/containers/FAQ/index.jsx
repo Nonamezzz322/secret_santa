@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import { Container, Box, Card, CardContent, Typography } from '@material-ui/core';
 import { useTranslation } from 'react-i18next';
@@ -16,7 +15,7 @@ const QuestionsAndAnswers = () => {
         <Typography variant="h3" className={classes.title}>
           {t('faq.faq_title')}
         </Typography>
-        {questions.map((el, i) => (
+        {questions.map(el => (
           <Box className={classes.userList} key={Math.random()}>
             <Card className={classes.card}>
               <CardContent>
